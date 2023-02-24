@@ -106,6 +106,9 @@ The purpose of this lab is to both get you familiar with using these non-github 
     
     Notice that there is no problem working with both github and gitlab on a single repository.
     Major open source projects regularly are hosted on many providers ar the same time.
+    For example, the linux kernel is [mirrored on gitlab here](https://gitlab.com/linux-kernel/linux) and on [github here](https://github.com/torvalds/linux),
+    but they don't actually use either website as their primary development platform.
+    Instead, this is handled by a custom web frontend at <https://kernel.org>.
 
 ## Submission
 
