@@ -61,15 +61,50 @@ The purpose of this lab is to both get you familiar with using these non-github 
     The `trinary_search` function does just that.
 
     Your task is to analyze the runtime of this function.
-    Modify the README file to include:
 
-    1. The recurrence relation that describes the function's runtime:
-        $$T(n) = aT(n/b) + f(n)$$
+    1. First we will analyze the runtime theoretically.
+        Modify the README file to include:
+    
+        1. The recurrence relation that describes the function's runtime:
+            $$T(n) = aT(n/b) + f(n)$$
 
-    1. The solution to the recurrence you wrote above as provided by the master theorem:
-        $$T(n) = \Theta()$$
+        1. The solution to the recurrence you wrote above as provided by the master theorem:
+            $$T(n) = \Theta()$$
 
-    Feel free to check your answers with me before moving on.
+        (Feel free to check your answers with me before moving on.)
+    
+    1. Next, we will use the timeit module to analyze the function empirically.
+        The theoretical results above should give you a good prediction about how the empirical experiments below will turn out.
+
+        Modify the `timeit` command from the [Runtime vs N section of lab-timeit2](https://github.com/mikeizbicki/lab-timeit2#runtime-vs-n) to use the `binary_search` and `trinary_search` commands in this lab.
+        Also modify it to use the numpy array type instead of a list as the input data structure.
+        Then complete the following table with the actual runtimes of the following functions on the corresponding input sizes.
+
+        |                | `binary_search`           | `trinary_search`      |
+        | -------------- | ------------------------- | --------------------- | 
+        | `n=2**0`       |                           |                       |
+        | `n=2**1`       |                           |                       |
+        | `n=2**2`       |                           |                       |
+        | `n=2**3`       |                           |                       |
+        | `n=2**4`       |                           |                       |
+        | `n=2**5`       |                           |                       |
+        | `n=2**6`       |                           |                       |
+        | `n=2**7`       |                           |                       |
+        | `n=2**8`       |                           |                       |
+        | `n=2**9`       |                           |                       |
+        | `n=2**10`      |                           |                       |
+        | `n=2**11`      |                           |                       |
+        | `n=2**12`      |                           |                       |
+        | `n=2**13`      |                           |                       |
+        | `n=2**14`      |                           |                       |
+        | `n=2**15`      |                           |                       |
+        | `n=2**16`      |                           |                       |
+        | `n=2**17`      |                           |                       |
+        | `n=2**18`      |                           |                       |
+        | `n=2**19`      |                           |                       |
+        | `n=2**20`      |                           |                       |
+        | `n=2**21`      |                           |                       |
+        | `n=2**22`      |                           |                       |
 
 
 1. Use the master theorem to solve the following recurrence relations,
