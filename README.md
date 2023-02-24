@@ -26,8 +26,10 @@ The purpose of this lab is to both get you familiar with using these non-github 
     > **NOTE:**
     > Running doctests should become a habit for you on every new python file you see.
     > Again, I'm not going to give you the command because that's uncouth.
-    > You should be able to figure out the command for yourself.
-    > (But I am of course happy to answer any questions if you can't get this to work.)
+    > The exact commands can vary slightly from system to system,
+    > and so library/tutorial authors usually assume you'll be able to figure out these details yourself.
+    > I want you to get some practice figuring out things things for yourself,
+    > but I am of course happy to answer any questions if you can't get this to work.
 
     The first two functions in `search.py` are the sequential search and binary search algorithms you saw last week.
 
