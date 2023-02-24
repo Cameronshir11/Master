@@ -1,4 +1,4 @@
-# Runtimes Lab
+# Lab: Master Theorem
 
 Notice that this lab is not hosted on github but on a competitor website gitlab.
 There are many different websites for hosting git repositories,
