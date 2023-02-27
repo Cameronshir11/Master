@@ -69,7 +69,7 @@ The purpose of this lab is to both get you familiar with using these non-github 
             $$T(n) = 1(t(n/3)) + 1$$
 
         1. The solution to the recurrence you wrote above as provided by the master theorem:
-            $$T(n) = \Theta(log(n)$$
+            $$T(n) = \Theta(log(n))$$
 
         (Feel free to check your answers with me before moving on.)
     
